@@ -1,3 +1,5 @@
+profile-name: "local"
+
 server:
   port: 8080
 
@@ -12,7 +14,7 @@ spring:
   jpa:
     database: mysql
     hibernate:
-      ddl-auto: none # or `create`
+      ddl-auto: create # or `none`
     properties:
       hibernate:
         show_sql: true # to System OutDataSourceConfiguration
